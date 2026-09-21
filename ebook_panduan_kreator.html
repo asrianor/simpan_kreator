@@ -67,8 +67,8 @@
           <a href="#bab1" class="block py-1 hover:text-white transition">Bab I: Pendahuluan & Landasan</a>
           <a href="#bab2" class="block py-1 hover:text-white transition">Bab II: Akses & Otentikasi Login</a>
           <a href="#bab3" class="block py-1 hover:text-white transition">Bab III: Navigasi Menu & Dashboard</a>
-          <a href="#bab4" class="block py-1 hover:text-white transition">Bab IV: Petunjuk Teknis Entri Artikel</a>
-          <a href="#bab5" class="block py-1 hover:text-white transition">Bab V: Studi Kasus Nyata: Smart Kampung Manis v.2.0</a>
+          <a href="#bab4" class="block py-1 hover:text-white transition">Bab IV: Petunjuk Teknis Entri Formulir</a>
+          <a href="#bab5" class="block py-1 hover:text-white transition">Bab V: Studi Kasus: Smart Kampung Manis v.2.0</a>
           <a href="#bab6" class="block py-1 hover:text-white transition">Bab VI: Standar Evidence (Claim &rarr; Proof)</a>
           <a href="#bab7" class="block py-1 hover:text-white transition">Bab VII: Kriteria Kurasi & Tips Skor &ge; 80</a>
           <a href="#bab8" class="block py-1 hover:text-white transition">Bab VIII: Timeline & Pendampingan LO</a>
@@ -76,8 +76,8 @@
       </div>
 
       <div class="bg-gradient-to-br from-blue-950/40 to-slate-900 border border-blue-500/20 rounded-2xl p-4 text-[11px] text-slate-300">
-        <div class="text-blue-400 font-bold mb-1">💡 Butuh Pendampingan?</div>
-        <p class="leading-relaxed">Tim Pendamping Liaison Officer (LO) Diskominfostandi siap membimbing proses pengumpulan berkas dan kurasi artikel SKPD Anda.</p>
+        <div class="text-blue-400 font-bold mb-1">💡 Butuh Bantuan?</div>
+        <p class="leading-relaxed">Tim Pendamping Liaison Officer (LO) Diskominfostandi siap membantu proses pengisian berkas dan kurasi artikel SKPD Anda.</p>
       </div>
     </aside>
 
@@ -253,45 +253,78 @@
         </div>
       </section>
 
-      <!-- ================= BAB IV: PETUNJUK TEKNIS ENTRI (LANDSCAPE) ================= -->
+      <!-- ================= BAB IV: PETUNJUK TEKNIS ENTRI FORMULIR (DENGAN SCREENSHOT ISIAN LENGKAP) ================= -->
       <section id="bab4" class="bg-slate-900 border border-slate-800 rounded-3xl p-8 md:p-10 shadow-lg space-y-6">
         <div class="border-b border-slate-800 pb-4">
           <span class="text-xs font-bold text-blue-400 uppercase tracking-widest">BAB IV</span>
-          <h2 class="text-2xl font-bold text-white mt-1">Petunjuk Teknis Pembuatan Artikel Pengetahuan</h2>
+          <h2 class="text-2xl font-bold text-white mt-1">Petunjuk Teknis & Contoh Langsung Pengisian Formulir</h2>
         </div>
 
         <p class="text-sm text-slate-300 leading-relaxed">
-          Setelah menekan tombol <strong>`+ Tambah`</strong>, sistem akan menampilkan formulir entri 2 kolom: <strong>Kolom Narasi & Konten (Kiri)</strong> dan <strong>Kolom Metadata & Berkas (Kanan)</strong>.
+          Berikut adalah <strong>contoh langsung formulir yang telah terisi penuh (*fully populated*)</strong> untuk praktik baik <strong>Panduan Aplikasi Smart Kampung Manis v.2.0</strong>, mencakup Judul, Format, URL Layanan (<code class="text-blue-300">https://smartkampungmanis.banjarkab.go.id/</code>), Kolaborator, Ringkasan, Detail, Kategori, Label, dan Berkas Evidence:
         </p>
 
-        <!-- Landscape Create Form Screenshot -->
-        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-4 overflow-hidden">
+        <!-- SCREENSHOT ISIAN LENGKAP LANSKAP -->
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-4 overflow-hidden shadow-2xl">
           <div class="text-xs font-bold text-slate-400 mb-2 flex items-center justify-between">
-            <span>Tangkapan Layar 4.1: Formulir Tambah Pengetahuan (Desktop 2-Kolom Widescreen)</span>
-            <span class="text-blue-400 font-mono">/admin/knowledge/knowledges/create</span>
+            <span>Tangkapan Layar 4.1: Formulir Tambah Pengetahuan Terisi Lengkap (Desktop Landscape 2-Kolom)</span>
+            <span class="text-emerald-400 font-mono font-bold">Judul &bull; URL &bull; Ringkasan &bull; Detail &bull; Berkas</span>
           </div>
-          <img src="images/04_form_tambah_pengetahuan_landscape.png" alt="Form Tambah Pengetahuan Landscape" class="rounded-xl border border-slate-800 w-full object-cover">
+          <img src="images/04_form_smart_kampung_manis_terisi_lengkap_landscape.png" alt="Formulir Terisi Lengkap Landscape" class="rounded-xl border border-slate-800 w-full object-cover">
         </div>
 
-        <!-- Formula Detail 4 Bab -->
-        <div class="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-3 text-xs">
-          <div class="font-bold text-white text-sm">Struktur Baku 4 Bab pada Kolom Detail:</div>
-          <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3 text-[11px] font-mono leading-relaxed">
-            <div>
-              <span class="text-blue-400 font-bold">### 1. Latar Belakang Masalah & Urgensi di Kabupaten Banjar</span>
-              <p class="text-slate-400 mt-0.5">Jelaskan kondisi sebelum inovasi, kendala operasional desa, keterbatasan geografis/birokrasi, dan kebutuhan warga.</p>
+        <!-- Panduan Tiap Elemen Formulir -->
+        <div class="space-y-4 text-xs text-slate-300 pt-2">
+          <h3 class="text-sm font-bold text-white">Rincian Elemen Isian Formulir:</h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- Left Column Breakdown -->
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2.5">
+              <div class="font-bold text-blue-300 text-xs border-b border-slate-800 pb-1 uppercase">1. Kolom Kiri: Narasi & Tautan Layanan</div>
+              <div>
+                <strong>• Judul:</strong> <span class="text-emerald-400 font-semibold">Panduan Aplikasi Smart Kampung Manis v.2.0</span>
+              </div>
+              <div>
+                <strong>• Format:</strong> Radio button <code class="text-blue-300 font-bold">Text</code> (format artikel tertulis).
+              </div>
+              <div>
+                <strong>• URL Teks:</strong> <code class="text-emerald-300 font-mono">https://smartkampungmanis.banjarkab.go.id/</code>
+              </div>
+              <div>
+                <strong>• Penulis:</strong> Rian Okkyanto, S.Kom
+              </div>
+              <div>
+                <strong>• Kolaborator:</strong> DKISP (Dinas Komunikasi, Informatika, Statistik dan Persandian)
+              </div>
+              <div>
+                <strong>• Ringkasan:</strong> Abstraksi eksekutif 1 paragraf mengenai pembaruan arsitektur sistem, layanan persuratan mandiri desa, dan integrasi TTE BSRE.
+              </div>
+              <div>
+                <strong>• Detail:</strong> Uraian latar belakang, alur proses bisnis, 6 fitur utama, dan dampak bagi masyarakat desa.
+              </div>
             </div>
-            <div>
-              <span class="text-blue-400 font-bold">### 2. Desain Inovasi & Alur Proses Bisnis Solusi</span>
-              <p class="text-slate-400 mt-0.5">Uraikan alur persuratan mandiri online, modul verifikasi pambakal/lurah, dan integrasi TTE BSRE BSSN.</p>
-            </div>
-            <div>
-              <span class="text-blue-400 font-bold">### 3. Hasil Kinerja, Evidence & Dampak Nyata</span>
-              <p class="text-slate-400 mt-0.5">Sajikan data kuantitatif efisiensi waktu penerbitan surat, penghematan biaya transportasi warga, dan statistik volume pemakaian.</p>
-            </div>
-            <div>
-              <span class="text-blue-400 font-bold">### 4. Lesson Learned & Panduan Replikasi</span>
-              <p class="text-slate-400 mt-0.5">Tantangan konektivitas pedesaan, mitigasi literasi digital perangkat desa, dan rekomendasi bagi pemerintah desa lain.</p>
+
+            <!-- Right Column Breakdown -->
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2.5">
+              <div class="font-bold text-emerald-300 text-xs border-b border-slate-800 pb-1 uppercase">2. Kolom Kanan: Taksonomi & Berkas</div>
+              <div>
+                <strong>• Kategori:</strong> <span class="text-white font-medium">Penyelenggara / Layanan Pemdi / Kepuasan Pengguna</span>
+              </div>
+              <div>
+                <strong>• Label (Tags):</strong> <span class="text-blue-300">Smart Village, Tanda Tangan Elektronik, Layanan SPBE, Panduan Teknis</span>
+              </div>
+              <div>
+                <strong>• Tanggal Terbit:</strong> <span class="text-white font-mono">28/07/2026</span>
+              </div>
+              <div>
+                <strong>• Status Akses:</strong> <span class="text-emerald-400 font-semibold">Eksternal (Publikasi Terbuka)</span>
+              </div>
+              <div>
+                <strong>• Unggulan:</strong> Toggle Aktif (Muncul di Beranda Depan SIMP@N).
+              </div>
+              <div>
+                <strong>• Berkas Evidence:</strong> Modul Smart Kmapung Manis V2.pdf (MAIN) & cover_smartkampungmanis_v2.png (COVER).
+              </div>
             </div>
           </div>
         </div>
@@ -305,7 +338,7 @@
         </div>
 
         <p class="text-sm text-slate-300 leading-relaxed">
-          Berikut adalah contoh lengkap pengisian artikel praktik baik riil dari <strong>Dinas Komunikasi, Informatika, Statistik dan Persandian (DKISP) Kabupaten Banjar</strong> yang telah memenuhi standar kurasi dan terbit di repositori pengetahuan:
+          Berikut adalah tampilan halaman detail pengetahuan yang telah terbit resmi di repositori pengetahuan dengan seluruh berkas pendukung:
         </p>
 
         <!-- Screenshot Detail Smart Kampung Manis -->
@@ -516,7 +549,7 @@
             <ul class="space-y-2 text-xs text-slate-300 list-disc list-inside leading-relaxed">
               <li><strong>Judul Spesifik:</strong> Berikan nama aplikasi/inovasi lengkap dengan versinya (seperti: <em>"Panduan Aplikasi Smart Kampung Manis v.2.0"</em>).</li>
               <li><strong>Lampirkan Modul PDF & Cover:</strong> Sertakan modul panduan teknis PDF dan gambar cover beresolusi tajam.</li>
-              <li><strong>Deskripsikan Fitur Utama:</strong> Jabarkan keunggulan arsitektur, alur persuratan, dan integrasi TTE BSRE.</li>
+              <li><strong>Sertakan URL Resmi:</strong> Cantumkan alamat portal pelayanan publik (<code class="text-blue-300">https://smartkampungmanis.banjarkab.go.id/</code>).</li>
               <li><strong>Konsultasi LO:</strong> Dapatkan telaah awal dari tim LO Diskominfo sebelum menekan tombol simpan final.</li>
             </ul>
           </div>
